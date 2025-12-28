@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Portfolio Website",
+            "client": "Self",
+            "deadline": "2026-01-15"
+        },
+        {
+            "id": "2",
+            "name": "E-commerce App",
+            "client": "Acme Corp",
+            "deadline": "2026-03-01"
+        }
+    ],
+    "tasks": [
+        {
+            "id": "1",
+            "title": "Design Landing Page",
+            "description": "Create a high-fidelity mockup for the hero section and CTA.",
+            "status": "completed",
+            "priority": "high",
+            "dueDate": "2025-12-20",
+            "category": "Design"
+        },
+        {
+            "id": "2",
+            "title": "Setup JSON Server",
+            "description": "Configure the mock database and initial routes for the frontend.",
+            "status": "in-progress",
+            "priority": "medium",
+            "dueDate": "2025-12-28",
+            "category": "Development"
+        },
+        {
+            "id": "3",
+            "title": "Write API Documentation",
+            "description": "Document the endpoints for the task management system.",
+            "status": "todo",
+            "priority": "low",
+            "dueDate": "2026-01-05",
+            "category": "Documentation"
+        },
+        {
+            "id": "4",
+            "title": "Fix Authentication Bug",
+            "description": "Users are being logged out after refreshing the page.",
+            "status": "todo",
+            "priority": "high",
+            "dueDate": "2025-12-30",
+            "category": "Development"
+        },
+        {
+            "id": "5",
+            "title": "Team Sync Meeting",
+            "description": "Discuss project milestones and weekly goals.",
+            "status": "in-progress",
+            "priority": "medium",
+            "dueDate": "2025-12-29",
+            "category": "Management"
+        }
+    ],
+    "categories": [
+        { "id": "1", "name": "Design", "color": "#ff5733" },
+        { "id": "2", "name": "Development", "color": "#33ff57" },
+        { "id": "3", "name": "Documentation", "color": "#3357ff" },
+        { "id": "4", "name": "Management", "color": "#f333ff" }
+    ]
+}
